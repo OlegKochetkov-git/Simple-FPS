@@ -63,33 +63,4 @@ namespace FPS.Systems
             rb.useGravity = true;
         }
     }
-
-
-    //LEFT
-    //rb.useGravity = false;
-
-    //rb.AddForce(Vector3.down * wallRunData.wallRunGravity, ForceMode.Force);
-
-    //if (Input.GetKeyDown(staticData.jumpKey))
-    //{
-    //    Vector3 wallRunJumpDirection = player.playerGO.transform.up + wallRunData.leftWallHit.normal;
-    //    rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
-    //    rb.AddForce(wallRunJumpDirection * wallRunData.wallRunJumpForce * 100f, ForceMode.Force);
-    //}
-
-
-
-
-    //RIGHT
-    //rb.useGravity = false;
-
-    //rb.AddForce(Vector3.down * wallRunData.wallRunGravity, ForceMode.Force);
-
-    //if (Input.GetKeyDown(staticData.jumpKey))
-    //{
-    //    Vector3 wallRunJumpDirection = player.playerGO.transform.up + wallRunData.rightWallHit.normal;
-    //    rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
-    //    rb.AddForce(wallRunJumpDirection * wallRunData.wallRunJumpForce * 100f, ForceMode.Force);
-    //}
-
 }
